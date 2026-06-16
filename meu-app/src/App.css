@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background-color: rgb(59, 40, 74);
+  color: #f1f5f9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+#root {
+  width: 100%;
+  max-width: 950px;
+}
+
+div {
+  text-align: left;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff; 
+  margin-top: 2.5rem;
+  margin-bottom: 0.6rem;
+}
+
+p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #94a3b8; 
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+
+p:first-of-type {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+p:last-of-type {
+  margin-top: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.homes{
+  width: 800px;
+  height: 650px;
+  border: 4px solid rgb(216, 95, 180);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: pink;
+  text-align: center;
+  
+}
+
+.meio{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.h{
+  width: 400px;
+  height: 450px;
+  border: 4px solid rgb(216, 95, 180);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: pink;
+}
+
+.c{
+  width: 400px;
+  height: 450px;
+  border: 4px solid rgb(216, 95, 180);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: pink;
+}
+
+.cartao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.imagensMeio {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgb(0, 0, 0);
+  position: relative;
+  /* margin-top: 200px;
+  margin-bottom: 200px; */
+}
+
+.imagens {
+  display: flex;
+  width: calc(400px * 4);
+  animation: slide 16s infinite;
+}
+
+.imagens img {
+  width: 500px; /*400*/
+  height: 300px;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-500px);/*900*/
+  }
+   40% {
+    transform: translateX(-500px);/*900*/
+  }
+  45% {
+    transform: translateX(-1000px);/*900*/
+  }
+  50% {
+    transform: translateX(-900px);
+  }
+  55% {
+    transform: translateX(-1500px);
+  }
+  70% {
+    transform: translateX(-1300px);
+  }
+  75% {
+    transform: translateX(-1800px); /*2700*/
+  }
+  95% {
+    transform: translateX(-2000px);/*2700*/
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.jogo{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+.oi{
+  margin: 50px;
+}
